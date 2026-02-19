@@ -23,5 +23,42 @@ This project is fully **open-source**, **reproducible**, and designed to run in 
 - CVXPY + OSQP (for MPC optimization)
 - Matplotlib (visualization)
 
+## System Architecture
+-Vehicle motion model (longitudinal dynamics)
+-Distance measurement between vehicles
+-Prediction of target vehicle behavior
+-Model Predictive Controller for acceleration computation
+-Real‑time simulation loop
+-Visualization and performance monitoring
+
+## Repository Structure
+-src/
+  -models/ → vehicle dynamics
+  -controllers/ → MPC controller
+  -simulation/ → simulation logic
+-docs/ → documentation
+-main.py → entry point
+-requirements.txt → dependencies
+-README.md → project documentation
+-LICENSE → MIT License
+
+## How to Run (to be updated)
+-Clone the repository
+-Install dependencies using pip
+-Run the main simulation file
+-Detailed instructions will be added as development progresses.
+
+## Real‑Time Performance
+-The controller runs inside a fixed‑time loop (≈20 ms per iteration).
+-Loop execution time and solver performance are logged and measured to ensure real‑time feasibility.
+
+## Project Status
+This project is under active development for FOSS Hack 2026.
+Core simulation and control logic are currently being implemented.
+
+## Open‑Source License
+This project is released under the **MIT License**, allowing free use, modification, and distribution with attribution.
+
+
   
 
