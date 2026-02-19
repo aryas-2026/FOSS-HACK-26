@@ -59,6 +59,12 @@ Core simulation and control logic are currently being implemented.
 ## Open‑Source License
 This project is released under the **MIT License**, allowing free use, modification, and distribution with attribution.
 
+## Project Roadmap
+Phase 1: Vehicle dynamics & simulation loop
+Phase 2: Rule-based and PID controllers
+Phase 3: MPC controller with real-time constraints
+Phase 4: Benchmarking and visualization
+
 
   
 
