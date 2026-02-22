@@ -1,17 +1,19 @@
 import time
 
 def main():
-    print("Adaptive Cruise Control Simulation Started")
-    dt = 0.02  # 50 Hz loop
-    position = 0.0
-    velocity = 5.0  # m/s
+    print("\nAdaptive Cruise Control Simulation Started:\n ")
 
-    for step in range(100):
-        position += velocity * dt
-        print(f"Step {step}: Position = {position:.2f} m")
+    position=0.0
+    dt=0.02 #50 Hz
+    Velocity = 5.0
+
+    for step in range(1,101):
+
+        position+=Velocity*dt
+        print(f"Step {step}--> Position= {position:.3f}m")
         time.sleep(dt)
 
-    print("Simulation Finished")
+    print("\nSimulation Finished\n")
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
