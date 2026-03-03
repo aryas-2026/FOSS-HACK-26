@@ -2,3 +2,5 @@ numpy
 matplotlib
 cvxpy
 osqp
+
+# No external libraries required for Day 1
