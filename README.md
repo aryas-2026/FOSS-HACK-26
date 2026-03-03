@@ -65,6 +65,11 @@ Phase 2: Rule-based and PID controllers
 Phase 3: MPC controller with real-time constraints
 Phase 4: Benchmarking and visualization
 
+## Development Progress
+
+### Day 1
+- Implemented basic real-time simulation loop
+- Vehicle position update at 50 Hz
 
   
 
