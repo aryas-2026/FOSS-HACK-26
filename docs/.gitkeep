@@ -1,1 +1,4 @@
-
+Day 1 Implementation Notes:
+- Created base simulation loop
+- Implemented position update
+- Verified real-time loop at 50 Hz
