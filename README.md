@@ -71,5 +71,7 @@ Phase 4: Benchmarking and visualization
 - Implemented basic real-time simulation loop
 - Vehicle position update at 50 Hz
 
-  
+### Day 2
+- Added two-vehicle model and distance calculation.
+- Target vehicle slows down after step 80.
 

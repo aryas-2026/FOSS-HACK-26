@@ -24,21 +24,21 @@ def main():
 
     print("\nACC Simulation for Two Vehicles Started\n")
 
-    # -------------------------
+    
     # Simulation parameters
-    # -------------------------
+    
     dt = 0.02      # 50 Hz control loop
     steps = 150
 
-    # -------------------------
+
     # Target Vehicle (front car)
-    # -------------------------
+    
     target_position = 30.0     # meters ahead
     target_velocity = 8.0      # m/s
 
-    # -------------------------
+    
     # Controlled Vehicle (our car)
-    # -------------------------
+    
     controlled_position = 0.0
     controlled_velocity = 5.0
 
