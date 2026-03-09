@@ -75,3 +75,11 @@ Phase 4: Benchmarking and visualization
 - Added two-vehicle model and distance calculation.
 - Target vehicle slows down after step 80.
 
+  ### Day 3
+Implemented rule-based Adaptive Cruise Control.
+
+Features added:
+- Safe following distance (15 m)
+- Automatic braking when distance becomes unsafe
+- Acceleration when road is clear
+
