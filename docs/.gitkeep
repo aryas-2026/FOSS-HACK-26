@@ -2,3 +2,31 @@ Day 1 Implementation Notes:
 - Created base simulation loop
 - Implemented position update
 - Verified real-time loop at 50 Hz
+
+
+Day 2 Notes
+
+Implemented a two-vehicle simulation.
+
+Two vehicles are modeled:
+- Target Vehicle (front vehicle)
+- Controlled Vehicle (following vehicle)
+
+Simulation Logic:
+- Both vehicles move using position = position + velocity × dt
+- Distance between vehicles is calculated every simulation step
+
+Scenario:
+- Target vehicle slows down after step 80
+- Distance between vehicles changes dynamically
+
+
+Day 3 
+
+Implemented basic ACC control logic using a rule-based approach.
+
+Control Strategy:
+- If distance < 15 m → apply braking
+- Else → accelerate
+
+This serves as the baseline controller before implementing PID and MPC.
