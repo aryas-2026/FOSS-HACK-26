@@ -75,8 +75,18 @@ Phase 4: Benchmarking and visualization
 - Added two-vehicle model and distance calculation.
 - Target vehicle slows down after step 80.
 
-  ### Day 3
+### Day 3
 Implemented rule-based Adaptive Cruise Control.
+
+### Day 4
+Implemented smooth proportional control for Adaptive Cruise Control.
+
+Control Strategy:
+- Error = distance - desired_distance
+- Acceleration = Kp × error
+- Applied acceleration and braking limits
+
+This improves over the Day 3 rule-based controller by producing smoother vehicle behavior.
 
 Features added:
 - Safe following distance (15 m)
