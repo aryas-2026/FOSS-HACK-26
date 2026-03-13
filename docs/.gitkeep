@@ -30,3 +30,19 @@ Control Strategy:
 - Else → accelerate
 
 This serves as the baseline controller before implementing PID and MPC.
+
+Day 4 Notes
+
+Implemented smooth ACC control using proportional control (P-control).
+
+Control Strategy:
+- Error = distance - desired distance
+- Controlled acceleration = Kp × error
+- If the vehicle is too far, it accelerates smoothly
+- If the vehicle is too close, it brakes smoothly
+
+Applied Limits:
+- Maximum acceleration = 1.5 m/s²
+- Maximum braking = -3.0 m/s²
+
+This serves as an improved baseline over the Day 3 rule-based controller before implementing full PID and MPC.
