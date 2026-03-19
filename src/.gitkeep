@@ -1,1 +1,10 @@
+ACC Controller Module Notes
 
+This folder is reserved for future modular implementation of the project.
+
+Planned future modules:
+- vehicle_model.py
+- pid_controller.py
+- mpc_controller.py
+
+Current final submission keeps the implementation in main.py for simplicity and clarity during evaluation.
