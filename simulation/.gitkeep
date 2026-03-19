@@ -1,1 +1,15 @@
+Simulation Scenario Notes
 
+Current simulation uses a two-vehicle longitudinal driving scenario.
+
+Scenario details:
+- Target vehicle starts 30 m ahead
+- Target vehicle initial speed = 8 m/s
+- Controlled vehicle initial speed = 6 m/s
+- Target vehicle slows down after step 120
+- Controlled vehicle uses PID-based Adaptive Cruise Control to maintain safe distance
+
+Future additions:
+- Multiple driving scenarios
+- Traffic disturbance cases
+- Performance comparison plots
